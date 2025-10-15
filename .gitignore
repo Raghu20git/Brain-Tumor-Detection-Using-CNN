@@ -1,0 +1,47 @@
+# --- Python cache & environment files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Datasets and large files ---
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.pkl
+*.npz
+*.npy
+*.pth
+*.pt
+*.joblib
+*.sav
+
+# --- Model weights ---
+/models/
+*.h5
+*.pb
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.swp
+
+# --- OS / IDE files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
